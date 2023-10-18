@@ -17,7 +17,9 @@ def get_disabled_issues() -> List[str]:
 
 SLOW_TESTS_FILE = ".pytorch-slow-tests.json"
 DISABLED_TESTS_FILE = ".pytorch-disabled-tests.json"
-
+TEST_TIMES_FILE = ".pytorch-test-times.json"
+TEST_FILE_RATINGS_FILE = ".pytorch-test-file-ratings.json"
+TEST_CLASS_RATINGS_FILE = ".pytorch-test-class-ratings.json"
 
 FILE_CACHE_LIFESPAN_SECONDS = datetime.timedelta(hours=3).seconds
 

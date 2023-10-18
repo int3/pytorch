@@ -4,7 +4,7 @@ from collections import defaultdict
 from typing import Any, cast, Dict, List
 from warnings import warn
 
-from tools.stats.export_test_times import TEST_FILE_RATINGS_FILE
+from tools.stats.import_test_stats import TEST_FILE_RATINGS_FILE
 
 from tools.testing.target_determination.heuristics.interface import (
     HeuristicInterface,
